@@ -28,10 +28,10 @@ if ( ! function_exists( 'activello_main_content_bootstrap_classes' ) ) :
  * Add Bootstrap classes to the main-content-area wrapper.
  */
 function activello_main_content_bootstrap_classes() {
-	if ( is_page_template( 'page-fullwidth.php' ) ) {
+	if ( is_page_template( 'page-fullwidth.php' ) || is_page_template( 'single.php' ) ) {
 		return 'col-sm-12 col-md-12';
 	}
-	return 'col-sm-12 col-md-12';
+	return 'col-sm-12 col-md-8';
 }
 endif; // activello_main_content_bootstrap_classes
 

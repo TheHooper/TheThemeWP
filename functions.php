@@ -16,7 +16,8 @@ if ( ! isset( $content_width ) ) {
  * Set the content width for full width pages with no sidebar.
  */
 function activello_content_width() {
-  if ( is_page_template( 'page-fullwidth.php' ) ) {
+//  if ( is_page_template( 'page-fullwidth.php' ) ) {
+    if( is_page() || is_page_template( 'page-fullwidth.php' ) ){
     global $content_width;
     $content_width = 1008; /* pixels */
   }
@@ -28,7 +29,8 @@ if ( ! function_exists( 'activello_main_content_bootstrap_classes' ) ) :
  * Add Bootstrap classes to the main-content-area wrapper.
  */
 function activello_main_content_bootstrap_classes() {
-	if ( is_page_template( 'page-fullwidth.php' )) {
+//	if ( is_page_template( 'page-fullwidth.php' )) {
+    if( is_page() || is_page_template( 'page-fullwidth.php' )){
 		return 'col-sm-12 col-md-12';
 	}
 	return 'col-sm-12 col-md-8';
@@ -266,3 +268,8 @@ function activello_header_search_filter($form){
     $form = '<form action="'.esc_url( home_url( "/" ) ).'" method="get"><input type="text" name="s" value="'.get_search_query().'" placeholder="'. esc_attr_x( __('Search', 'activello'), 'search placeholder', 'activello' ).'"><button type="submit" class="header-search-icon" name="submit" id="searchsubmit" value="'. esc_attr_x( 'Search', 'submit button', 'activello' ).'"><i class="fa fa-search"></i></button></form>';
     return $form;    
 }
+
+function new_excerpt_more($excerpt) {
+    return str_replace("[...]", " ...", $excerpt);
+}
+add_filter("wp_trim_excerpt", "new_excerpt_more");

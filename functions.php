@@ -270,6 +270,6 @@ function activello_header_search_filter($form){
 }
 
 function new_excerpt_more($excerpt) {
-    return str_replace("[...]", " ...", $excerpt);
+    return str_replace("[…]", " ...", $excerpt);
 }
 add_filter("wp_trim_excerpt", "new_excerpt_more");

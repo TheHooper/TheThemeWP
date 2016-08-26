@@ -17,7 +17,7 @@ if ( ! isset( $content_width ) ) {
  */
 function activello_content_width() {
 //  if ( is_page_template( 'page-fullwidth.php' ) ) {
-    if( is_page() || is_page_template( 'page-fullwidth.php' ) ){
+    if( is_page() ){
     global $content_width;
     $content_width = 1008; /* pixels */
   }
@@ -30,7 +30,7 @@ if ( ! function_exists( 'activello_main_content_bootstrap_classes' ) ) :
  */
 function activello_main_content_bootstrap_classes() {
 //	if ( is_page_template( 'page-fullwidth.php' )) {
-    if( is_page() || is_page_template( 'page-fullwidth.php' )){
+    if( is_page()){
 		return 'col-sm-12 col-md-12';
 	}
 	return 'col-sm-12 col-md-8';
@@ -270,6 +270,6 @@ function activello_header_search_filter($form){
 }
 
 function new_excerpt_more($excerpt) {
-    return str_replace("[…]", " ...", $excerpt);
+    return str_replace("[&hellip;]", " ...", $excerpt);
 }
 add_filter("wp_trim_excerpt", "new_excerpt_more");

@@ -155,7 +155,9 @@ endif;
  */
 function activello_footer_info() {
 global $activello_footer_info;
-  printf( esc_html__( 'Theme by %1$s Powered by %2$s', 'activello' ) , '<a href="http://colorlib.com/" target="_blank">Colorlib</a>', '<a href="http://wordpress.org/" target="_blank">WordPress</a>');
+  printf( esc_html__( 'Powered by WP', 'activello' ) , '<a href="http://colorlib.com/" target="_blank">Colorlib</a>', '<a href="http://wordpress.org/" target="_blank">WordPress</a>');
+    //Theme by Colorlib Powered by WordPress
+    //esc_html__( 'Theme by %1$s Powered by %2$s', 'activello'
 }
 
 

@@ -328,3 +328,6 @@ function clear_db_cache_archives_list() {
     update_option('zww_db_cache_archives_list', ''); // 清空 zww_archives_list
 }
 add_action('save_post', 'clear_db_cache_archives_list'); // 新发表文章/修改文章时
+
+//开启Jquery
+wp_enqueue_script('jquery');

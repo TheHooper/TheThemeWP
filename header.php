@@ -18,6 +18,7 @@
 	<!--[if gt IE 9]><!-->
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 <head>
+<meta name="google-site-verification" content="L0VzBzV9ee-FWHfcMkqWxoCAqeggucIWGNnG2Jgy07g" />
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">

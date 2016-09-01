@@ -47,7 +47,7 @@ body {
   word-wrap: break-word;
   font-family: 'Lora', serif;
   line-height: 2;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 a {
@@ -92,32 +92,32 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1,
 .h1 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 h2,
 .h2 {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 h3,
 .h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 h5,
 .h5 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 h6,
 .h6 {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 p {
@@ -245,7 +245,7 @@ textarea {
   clip: auto !important;
   color: #21759b;
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   height: auto;
   left: 5px;
@@ -324,7 +324,7 @@ textarea {
 /* =Post styling
 ----------------------------------------------- */
 .entry-meta a {
-  font-size: 15px;
+  font-size: 13px;
   color: #6B6B6B;
 }
 .entry-meta {
@@ -339,7 +339,7 @@ footer.entry-meta {
   padding-bottom: 0;
 }
 .entry-meta .fa {
-  font-size: 16px;
+  font-size: 14px;
   margin-right: 3px;
 }
 .entry-meta span {
@@ -371,7 +371,7 @@ hr.section-divider {
   float: left;
 }
 .author-bio-content h4 {
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 0;
 }
 .author-bio .author-bio-content {
@@ -469,7 +469,7 @@ article.post:first-child .post-inner-content {
 }
 article.post .post-categories, .post-inner-content .cat-item {
   position: relative;
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 0 15px 0;
   padding: 0 0 8px 0;
   list-style: none;
@@ -597,7 +597,7 @@ article.grid iframe {
 }
 .pagination .fa-chevron-left,
 .pagination .fa-chevron-right {
-  font-size: 14px;
+  font-size: 12px;
 }
 .pagination li a {
   color: #1CBF6A;
@@ -699,7 +699,7 @@ object {
 .widget ul {
   padding: 0;
   line-height: 18px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .widget ul.nav.nav-tabs {
   padding: 0;
@@ -716,7 +716,7 @@ object {
   list-style: none;
 }
 #secondary .widget > h3 {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 25px;
   margin-top: 0;
@@ -791,7 +791,7 @@ ul#menu-social-items,
 
 }
 .widget .post-content span {
-    font-size: 14px;
+    font-size: 12px;
 }
 .tagcloud {
   margin-top: 25px;
@@ -805,7 +805,7 @@ ul#menu-social-items,
   background-color: #f2f2f2;
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif;
-  font-size: 12px !important;
+  font-size: 10px !important;
   text-transform: uppercase;
 }
 .tagcloud a:hover {
@@ -839,7 +839,7 @@ input[type=submit] {
     color: #696969;
     display: inline-block;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     -webkit-transition: background-color 0.3s linear;
      -moz-transition: background-color 0.3s linear;
@@ -866,7 +866,7 @@ input[type=submit]:hover {
   color: #fff;
 }
 .input-group-btn:last-child>.btn {
-  font-size: 14px;
+  font-size: 12px;
   opacity: 1;
   padding: 8px 20px;
   line-height: 16px;
@@ -1003,7 +1003,7 @@ input[type=submit]:hover,
 .post-navigation a,
 .paging-navigation a {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   display: block;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1047,7 +1047,7 @@ input[type=submit]:hover,
 .navbar-default .navbar-nav > li > a {
   color: #1c202a;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 padding: 20px 0;
 margin-right: 25px;
@@ -1132,7 +1132,7 @@ letter-spacing: 1px;
 .dropdown-menu {
   box-shadow: none;
   border: 1px solid #eeeeee !important;
-  font-size: 15px;
+  font-size: 13px;
 }
 .navbar-default .navbar-nav .current-menu-ancestor a.dropdown-toggle {
   color: #1CBF6A;
@@ -1297,7 +1297,7 @@ p.logged-in-as {
 
 .comments-title,
 .comment-reply-title {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 0 50px 0;
   padding-bottom: 10px;
   letter-spacing: 2px;
@@ -1305,7 +1305,7 @@ p.logged-in-as {
   text-align: center;
 }
 .comment-author.vcard {
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 10px;
 }
 .vcard .avatar {
@@ -1324,7 +1324,7 @@ p.logged-in-as {
   background: #f2f2f2;
   border-radius: 2px;
   color: #000000;
-  font-size: 12px;
+  font-size: 10px;
   margin-left: 20px;
   display: inline-block;
   padding: 4px 10px;
@@ -1343,7 +1343,7 @@ p.logged-in-as {
   color: #C7254E;
 }
 #submit {
-  font-size: 14px;
+  font-size: 12px;
 }
 .comment-navigation,
 .single .nav-links {
@@ -1492,7 +1492,7 @@ p.logged-in-as {
   -moz-box-sizing:    border-box;
   box-sizing:         border-box;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   margin: 0;
   max-height: 50%;
@@ -1540,7 +1540,7 @@ p.logged-in-as {
   border-bottom: none;
 }
 .widgettitle {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 25px;
   margin-top: 0;
@@ -1580,7 +1580,7 @@ p.logged-in-as {
 }
 .site-info {
   color: #999;
-  font-size: 14px;
+  font-size: 12px;
 }
 .footer-nav.nav > li > a:hover {
   background-color: transparent;
@@ -1710,7 +1710,7 @@ table#wp-calendar {
   background: #f2f2f2;
   border: 0;
   border-radius: 0;
-  font-size: 14px;
+  font-size: 12px;
   padding: 0 80px;
   text-transform: uppercase;
 }

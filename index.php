@@ -11,15 +11,14 @@
  * @package activello
  */
 
-get_header(); 
-
-/*
 if( strpos($_SERVER['HTTP_USER_AGENT'],'qiniu-imgstg-spider') !== false) {
 header('HTTP/1.1 503 Service Temporarily Unavailable');
 echo '防七牛镜像';
 exit;
 }
- */
+
+get_header(); 
+
 ?>
 
 	<div id="primary" class="content-area">
